@@ -1,16 +1,35 @@
 # classification-challenge
 
 
+# Background
 
-Background
-Let's say you work at an Internet Service Provider (ISP) and you've been tasked with improving the email filtering system for its customers. You've been provided with a dataset that contains information about emails, with two possible classifications: spam and not spam. The ISP wants you to take this dataset and develop a supervised machine learning (ML) model that will accurately detect spam emails so it can filter them out of its customers' inboxes.
+## Supervised Machine Learning Model using Logistic Regression & Random Forest Model
+
+
+Scenario: Let's say you work at an Internet Service Provider (ISP) and you've been tasked with improving the email filtering system for its customers. You've been provided with a dataset that contains information about emails, with two possible classifications: spam and not spam. The ISP wants you to take this dataset and develop a supervised machine learning (ML) model that will accurately detect spam emails so it can filter them out of its customers' inboxes.
+
+## Use cases of Logisitic Regression Model vs Random Forest Model 
+
+### Logistic Regression Model.
+> when you have data with two possible outcomes like a yes or no or anything 0.5 and > above give the loan 
+> uses a sigmoid curve which is divided into two 
+> less accurate and robust compared to Random Forest but computationally faster
+
+### Random Forest Model.
+> can model complex relationships between variables.
+> can handle large amounts of data efficiently.
+
+
+# Troubleshooting_spam_detector vs spam_detector.ipynb
+
+The purpose of the Troubleshooting_spam_detector file is to provide explict thought process as data scientist worked through this exercise. It is overly detailed and would not be ideal for presenting to other codes as it is not concise. However, Data Scientist "Freshers" may chose to keep seperate notes as to what they performed and then clean it up for presentation purposes. 
 
 You will be creating two classification models to fit the provided data, and evaluate which model is more accurate at detecting spam. The models you'll create will be a logistic regression model and a random forest model.
 
-Files
-Download the following files to help you get started:
 
-Module 13 Challenge filesLinks to an external site.
+
+Module 13 Challenge files
+
 
 Before You Begin
 Before starting the assignment, be sure to complete the following steps:
